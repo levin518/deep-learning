@@ -1,4 +1,4 @@
-# caffe部署
+# caffe部署(CPU版本)
 
 ## caffe的安装
 ### 安装依赖包
