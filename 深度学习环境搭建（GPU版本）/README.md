@@ -14,13 +14,13 @@ GPU显卡装到主板上之后，先了解下自己GPU显卡型号和推荐安�
 ```
 ubuntu-drivers devices
 ```
-![1](/doc/1.png)
+![1](./doc/1.png)
 
 可以看到，我的GPU显卡是Quadro M4000，推荐安装的驱动是 nvidia-384型号
 
 ② [NVDIA driver search page](https://www.nvidia.cn/Download/index.aspx?lang=cn)网址搜索显卡所需的驱动型号。
 
-![2](/doc/2.png)
+![2](./doc/2.png)
 
 ## 2、驱动安装
 
@@ -45,7 +45,7 @@ tips：第二种安装方法比较繁琐。暂未发现第一种安装方法的�
 nvidia-smi
 ```
 
-![3](/doc/3.png)
+![3](./doc/3.png)
 
 ## 3、CUDA下载
 
@@ -127,7 +127,7 @@ sudo ldconfig
 nvcc --version
 ```
 
-![4](/doc/4.png)
+![4](./doc/4.png)
 
 - CUDA SAMPLES测试
 
@@ -152,7 +152,7 @@ $ cd bin/x86_64/linux/release/
 ./deviceQuery
 ```
 
-![5](/doc/5.png)
+![5](./doc/5.png)
 
 ## 7、cuDNN7.2下载
 
@@ -212,7 +212,7 @@ sess = tf.Session()
 print(sess.run(hello))
 ```
   
-![6](/doc/6.png)
+![6](./doc/6.png)
 
 
 
