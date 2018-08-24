@@ -6,21 +6,21 @@
 light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Noisy Labels 论文中，优势在于一个很小的模型和一个非常不错的识别率。使用maxout作为激活函数，实现了对噪声的过滤和对有用信号的保留，从而产生更好的特征图MFM(Max-Feature-Map)，作者使用了NIN(Network inNetwork)来减少参数。
 为了提高人脸特征提取速度，高精度的特征的重要性反而比不上性能的提高，于是选择了该神经网络模型作为人脸特征提取模型。
 
-[参考文档：](https://github.com/AlfredXiangWu/face_verification_experiment)
+[参考资料](https://github.com/AlfredXiangWu/face_verification_experiment)
 
 
 ## 2、Mtcnn 人脸检测算法
 
 MTCNN 这个是基于深度学习做的一个人脸检测，它是一个级联的cnn结构。其检测效果很不错，也是现在用的最多的一个开源的人脸检测算法。
 
-[参考文档：](https://github.com/kpzhang93/MTCNN_face_detection_alignment)
+[参考资料](https://github.com/kpzhang93/MTCNN_face_detection_alignment)
 
 
 ## 3、dlib 库
 
 dlib是一个现代的C ++工具包，包含了用C ++创建复杂软件来解决实际问题的机器学习算法和工具。它被广泛应用于工业界和学术界，包括机器人，嵌入式设备，手机以及大型高性能计算环境。
 
-[dlib 官网：](http://dlib.net/)
+[dlib官网](http://dlib.net/)
 
 
 ### dlib的python接口
